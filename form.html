@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1">
+
+        <table>
+        <form >
+            <caption><b>Registration Form</b></caption>
+            <tr>
+            <th><label for="t1">First Name</label></th>
+            <td><input type="text" id="t1" class="text"></td>
+            </tr>
+            <tr>
+            <th><label for="t2">Last Name</label></th>
+            <td><input type="text" id="t2" class="text"></td>
+            </tr>
+            <tr>
+                <th rowspan="3"><label for="sex">Gender</label></th>
+                <td><input type="radio" name="gender" id="sex">
+                <label for="gender">Male</label></td> 
+                </tr>
+                <tr>
+                <td><input type="radio" name="gender">
+                    <label for="gender">Female </label></td>    
+                </tr>
+                <tr>
+                    <td><input type="radio" name="gender">
+                        <label for="gender">Other </label></td>    
+                    </tr>
+                    <tr>
+                        <th><label for="date">Date of Birth</label></th>
+                        <td><input type="date" id="date"></td>
+                    </tr>
+                    <tr>
+                    <th colspan="2"><input type="button" value="Submit" id="button"></th>
+                    </tr>
+        </form>
+    </table>
+    </div>
+</body>
+</html>
